@@ -1,0 +1,143 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 0.3rem;
+}
+a{
+    text-decoration: none;
+    color: rgb(202, 10, 161);
+    cursor: pointer;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: rgb(155, 12, 131)
+}
+.cor{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    background: rgb(236, 227, 227);
+    height: 65vh;
+    padding: 2%;
+    row-gap: 5%;
+}
+.tamanhos{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    font-size: 1rem;
+}
+.tamanho .span{
+    padding: 0 10px;
+    display: inline-flex;
+    background: #919090;
+    color: #fff;
+    margin-left: 10px;
+}
+.menor{
+    background: #232c35;
+    padding: 2%;
+    cursor: pointer;
+}
+.medio{
+    font-size: 1.8rem;
+    cursor: pointer;
+}
+.grande{
+    font-size: 2.1rem;
+    cursor: pointer;
+}
+
+.topo{
+    text-align: center;
+}
+.botoes{
+    display: flex;
+    justify-content: space-between;
+}
+.botoes button{
+    width: 49%;
+    height: 5vh;
+    font-size: 1.5rem;
+}
+.face{
+    background: blue;
+    color: white;
+    font-weight: bold;
+}
+.tuiter{
+    background: rgb(48, 138, 255);
+    color: white;
+    font-weight: bold;
+}
+.dados{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 14vh;
+    row-gap: 1vh;
+}
+.dados>input{
+    height: 6vh;
+    width: 100%;
+    font-size: 1.1rem;
+}
+.dados i{
+    position: absolute;
+    font-size: 1.5rem;
+}
+.dados input{
+    padding: 8%;
+}
+.remember{
+    display: flex;
+    justify-content: space-between;
+}
+.logo input{
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5rem;
+    width: 100%;
+    height: auto;
+    background: rgb(155, 12, 131);
+    color: white;
+}
+.esqueci{
+    display: flex;
+    justify-content: center;
+    margin-top: auto;
+}
+.dark{
+    background-color: rgb(236, 227, 227);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+body.dark{
+    background: #232c35;
+}
+.checkbox{
+   display: none;
+}
+.label{
+    background: black;
+    border-radius: 50rem;
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    position: relative;
+    height: 3vh;
+    width: 3vw;
+}
+
